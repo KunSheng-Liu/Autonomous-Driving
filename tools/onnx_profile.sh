@@ -1,0 +1,1 @@
+python3 -m onnxruntime.transformers.profiler --model ../models/resnet50_56_56.onnx --batch_size 1 --sequence_length 1 --samples 1000 --dummy_inputs gpt2 --thread_num 8 --use_gpu
